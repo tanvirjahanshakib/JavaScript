@@ -35,8 +35,23 @@
 //     }   
 // }
 // Write a for loop that prints the sum of numbers from 1 to 20
-let sum = 0;
-for( let i = 1 ; i <= 20 ; i++){
-    sum += i;
-    console.log ( i, sum);
-}
+// let sum = 0;
+// for( let i = 1 ; i <= 20 ; i++){
+//     sum += i;
+//     console.log ( i, sum);
+// }
+// Task 7: Ask the user for a number, then print its multiplication table from 1 to 10 using a for loop
+// const number = 7
+// for(let i = 1 ; i <= 10 ; i++){
+//     console.log(number , "X" , i, "=" , number * i);
+// }
+// const number = 7;
+// let i = 1;
+// while (i <= 10) {
+//     console.log(number, "X", i, "=", number * i);
+//     i++;
+// }
+// Task 8: Write a for loop that prints numbers from 20 to 1
+// for(let count = 20; count >= 1 ; count--){
+//     console.log(count);
+// }
