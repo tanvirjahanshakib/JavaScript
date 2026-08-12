@@ -62,7 +62,14 @@
 //     console.log("No need to take an umbrella");
 // }
 // Take a variable stock. if stock is 0 orint "Out of stock".
-let stock = 0;
-if (stock === 0){
-    console.log ("Out of stock");
+// let stock = 0;
+// if (stock === 0){
+//     console.log ("Out of stock");
+// }
+// Take a number variable and check whether it is positive, negative using if else
+let number = -5;
+if (number > 0){
+    console.log("It is a positive number");
+} else if (number < 0){
+    console.log("It is a negative number");
 }
