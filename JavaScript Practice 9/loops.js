@@ -11,8 +11,20 @@
 // for (let i = 1 ; i <= 10 ; i++){
 //     console.log(i);
 // }
-let i = 0;
-while(i < 10){
-    console.log(i);
-    i++;
-}
+// let i = 1;
+// while(i <= 10){
+//     console.log(i);
+//     i++;
+// }
+// Task 3: Write a while loop that prints number from 10 to 1
+// let i = 10;
+// while( i>= 1){
+//     console.log(i);
+//     i--;
+// }
+// Task 4 using a while loop, print Loop is Running exactly 7 times
+// let i = 0;
+// while( i < 7 ){
+//     console.log("Loop is Running");
+//     i++;
+// }
