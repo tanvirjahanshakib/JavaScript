@@ -31,8 +31,13 @@ let price2 = 20;
 // } else{
 //     console.log("price1 is equal to price2");
 // }
-if (price1 >= price2){
-    console.log("price1 is greater than or equal to price2");
+// if (price1 >= price2){
+//     console.log("price1 is greater than or equal to price2");
+// } else{
+//     console.log("price1 is not grater than or equal to price2");
+// }
+if (price1 <= price2){
+    console.log("price1 is less than or equal to price2");
 } else{
-    console.log("price1 is not grater than or equal to price2");
+    console.log("price1 is not less than or equal to price2");
 }
