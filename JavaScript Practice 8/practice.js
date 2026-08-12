@@ -55,9 +55,14 @@
 // if (isRaining){
 //     console.log("Take an Umbrella");
 // }
-let isRaining = false;
-if (isRaining) {
-    console.log("Take an Umbrella");
-} else {
-    console.log("No need to take an umbrella");
+// let isRaining = false;
+// if (isRaining) {
+//     console.log("Take an Umbrella");
+// } else {
+//     console.log("No need to take an umbrella");
+// }
+// Take a variable stock. if stock is 0 orint "Out of stock".
+let stock = 0;
+if (stock === 0){
+    console.log ("Out of stock");
 }
