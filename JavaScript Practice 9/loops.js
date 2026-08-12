@@ -29,8 +29,14 @@
 //     i++;
 // }
 // Task 5: Write a for loop thatt prints ecen number from 1 to 30
-for(let i = 0 ; i <= 30 ; i++){
-    if( i % 2 === 0){
-        console.log(i);
-    }   
+// for(let i = 0 ; i <= 30 ; i++){
+//     if( i % 2 === 0){
+//         console.log(i);
+//     }   
+// }
+// Write a for loop that prints the sum of numbers from 1 to 20
+let sum = 0;
+for( let i = 1 ; i <= 20 ; i++){
+    sum += i;
+    console.log ( i, sum);
 }
