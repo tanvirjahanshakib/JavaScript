@@ -74,9 +74,16 @@
 //     console.log("It is a negative number");
 // }
 // Take a year variable and chack whether it is a leap year (Hint:  Year%4 === 0)
-let year = 2024;
-if (year % 4 === 0){
-    console.log("It is a leap year");
-} else if (year % 4 !== 0){
-    console.log("It is not a leap year");
+// let year = 2024;
+// if (year % 4 === 0){
+//     console.log("It is a leap year");
+// } else if (year % 4 !== 0){
+//     console.log("It is not a leap year");
+// }
+// Take a variable speed. if speed is greater than 80, print "Overspeeding" otherwise print "Normal Speed".
+let speed = 120;
+if (speed > 80) {
+    console.log("Overspeeding");
+} else {
+    console.log("Normal Speed");
 }
