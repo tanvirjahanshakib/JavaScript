@@ -28,7 +28,7 @@
 //     console.log("Loop is Running");
 //     i++;
 // }
-// Task 5: Write a for loop thatt prints ecen number from 1 to 30
+// Task 5: Write a for loop thatt prints even number from 1 to 30
 // for(let i = 0 ; i <= 30 ; i++){
 //     if( i % 2 === 0){
 //         console.log(i);
@@ -55,3 +55,9 @@
 // for(let count = 20; count >= 1 ; count--){
 //     console.log(count);
 // }
+// Task 9: Write a for loop that calculates the sum of all even numbers for 2 to 50
+let sum = 0;
+ for(let i = 2 ; i <= 50 ; i+=2){
+    sum += i;
+    console.log(i , sum);
+}
