@@ -42,11 +42,22 @@
 //     console.log("price1 is not less than or equal to price2");
 // }
 // Guese the result of "5" == 5 and "5" === 5. then write code to verify your guess.
-let theNumberString = "5";
-let theNumber = 5;
-if (theNumberString == theNumber) {
-    console.log('"5" == 5 && "5" is equal to 5');
-}
-if (theNumberString === theNumber) {
-    console.log('"5" === 5 && "5" is strictly equal to 5');
+// let theNumberString = "5";
+// let theNumber = 5;
+// if (theNumberString == theNumber) {
+//     console.log('"5" == 5 && "5" is equal to 5');
+// }
+// if (theNumberString === theNumber) {
+//     console.log('"5" === 5 && "5" is strictly equal to 5');
+// }
+// 3: Create a veriable isRaining (True or False). if it is raining, pront Take an umbrella.
+// let isRaining = true;
+// if (isRaining){
+//     console.log("Take an Umbrella");
+// }
+let isRaining = false;
+if (isRaining) {
+    console.log("Take an Umbrella");
+} else {
+    console.log("No need to take an umbrella");
 }
