@@ -28,3 +28,9 @@
 //     console.log("Loop is Running");
 //     i++;
 // }
+// Task 5: Write a for loop thatt prints ecen number from 1 to 30
+for(let i = 0 ; i <= 30 ; i++){
+    if( i % 2 === 0){
+        console.log(i);
+    }   
+}
