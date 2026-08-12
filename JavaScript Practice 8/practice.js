@@ -67,9 +67,16 @@
 //     console.log ("Out of stock");
 // }
 // Take a number variable and check whether it is positive, negative using if else
-let number = -5;
-if (number > 0){
-    console.log("It is a positive number");
-} else if (number < 0){
-    console.log("It is a negative number");
+// let number = -5;
+// if (number > 0){
+//     console.log("It is a positive number");
+// } else if (number < 0){
+//     console.log("It is a negative number");
+// }
+// Take a year variable and chack whether it is a leap year (Hint:  Year%4 === 0)
+let year = 2024;
+if (year % 4 === 0){
+    console.log("It is a leap year");
+} else if (year % 4 !== 0){
+    console.log("It is not a leap year");
 }
