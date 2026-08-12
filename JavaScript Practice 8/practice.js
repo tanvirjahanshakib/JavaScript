@@ -11,8 +11,13 @@ let price2 = 20;
 // }else{
 //     console.log ("price1 is not greater than price2")
 // }
-if (price1 == price2){
-    console.log("proce1 is equal to pric2");
-}else{
-    console.log("price1 is not equal to price2");
+// if (price1 == price2){
+//     console.log("proce1 is equal to pric2");
+// }else{
+//     console.log("price1 is not equal to price2");
+// }
+if (price1===price2){
+    console.log("proce1 is equal to price 2");
+} else{
+    console.log("price1 in not equal to price2");
 }
