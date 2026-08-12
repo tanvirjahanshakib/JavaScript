@@ -56,8 +56,15 @@
 //     console.log(count);
 // }
 // Task 9: Write a for loop that calculates the sum of all even numbers for 2 to 50
-let sum = 0;
- for(let i = 2 ; i <= 50 ; i+=2){
-    sum += i;
-    console.log(i , sum);
+// let sum = 0;
+//  for(let i = 2 ; i <= 50 ; i+=2){
+//     sum += i;
+//     console.log(i , sum);
+// }
+// Task 10: Write a for loop 1 to 50 that stops completely as soom as it reachees a number greater that 30.
+for (let i = 0; i <= 50; i++) {
+    if (i > 30){
+        break;
+    }
+    console.log("The Number of Count is", i);
 }
