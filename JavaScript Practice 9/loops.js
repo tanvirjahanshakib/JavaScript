@@ -62,9 +62,16 @@
 //     console.log(i , sum);
 // }
 // Task 10: Write a for loop 1 to 50 that stops completely as soom as it reachees a number greater that 30.
-for (let i = 0; i <= 50; i++) {
-    if (i > 30){
-        break;
+// for (let i = 0; i <= 50; i++) {
+//     if (i > 30){
+//         break;
+//     }
+//     console.log("The Number of Count is", i);
+// }
+// Write a for loop from 1 to 20 that skips any number divisible by 4
+for ( let i = 1 ;  i <= 20 ; i++){
+    if ( i % 4 === 0){
+        continue;
     }
-    console.log("The Number of Count is", i);
+    console.log("The Value of i is", i ); 
 }
