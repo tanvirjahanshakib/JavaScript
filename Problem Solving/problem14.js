@@ -35,31 +35,31 @@
 // Total Properties: 4
 // Has Email: false
 
-const student = {
-    name: "Utsho",
-    age: 26,
-    university: "DIU",
-    department: "CSE",
-};
+// const student = {
+//     name: "Utsho",
+//     age: 26,
+//     university: "DIU",
+//     department: "CSE",
+// };
 
-function printStudentInfo(student) {
-    let keyItem = "";
-    for (let key in student) {
-        keyItem += key + " ";
-    }
-    console.log(keyItem);
-    let valueItem = "";
-    for (let key in student) {
-        valueItem += student[key] + " ";
-    }
-    console.log(valueItem);
-    let keyAndValueItem = "";
-    for (let key in student) {
-        keyAndValueItem += key + ": " + student[key] + "\n";
-    }
-    console.log(keyAndValueItem);
-    console.log("Total Properties: " + Object.keys(student).length);
-    console.log("Has Email: " + ("email" in student));
-}
+// function printStudentInfo(student) {
+//     let keyItem = "";
+//     for (let key in student) {
+//         keyItem += key + " ";
+//     }
+//     console.log(keyItem);
+//     let valueItem = "";
+//     for (let key in student) {
+//         valueItem += student[key] + " ";
+//     }
+//     console.log(valueItem);
+//     let keyAndValueItem = "";
+//     for (let key in student) {
+//         keyAndValueItem += key + ": " + student[key] + "\n";
+//     }
+//     console.log(keyAndValueItem);
+//     console.log("Total Properties: " + Object.keys(student).length);
+//     console.log("Has Email: " + ("email" in student));
+// }
 
-printStudentInfo(student);
+// printStudentInfo(student);
